@@ -28,13 +28,13 @@ INSERT INTO STUDENT (STUDENTID, FIRSTNAME, LASTNAME, EMAIL, MOBILENUMBER) VALUES
 
 INSERT INTO AUTHOR (AUTHORID, FIRSTNAME, LASTNAME, AUTHORTAXFILENUMBER) VALUES
 ('32567', 'Edgar', 'Codd', 150111222),
-( '76543', 'Vinton', 'Cerf', 150222333),
+('76543', 'Vinton', 'Cerf', 150222333),
 ('12345', 'Alan', 'Turing', 150333444);
 
 INSERT INTO BOOK (ISBN, TITLE, PUBLICATIONYEAR, AUTHORID, FIRSTNAME, LASTNAME, AUTHORTAXFILENUMBER) VALUES
-('978-3-16-148410-0', 'Relationships with Databases, the ins and outs', 1970, '32567', 'Edgar', 'Codd', 150111222),
-('978-3-16-148410-1', 'Normalisation, how to make a database geek fit in', 1973 , '32567', 'Edgar', 'Codd', 150111222),
-('978-3-16-148410-2', 'TCP/IP, the protocol for the masses', 1983 , '76543', 'Vinton', 'Cerf', 150222333),
-('978-3-16-148410-3', 'The Man, the Bombe, and the Enigma', 1940 , '12345', 'Alan', 'Turing', 150333444);
+(9783161484100, 'Relationships with Databases, the ins and outs', 1970, '32567', 'Edgar', 'Codd', 150111222),
+(9783161484101, 'Normalisation, how to make a database geek fit in', 1973, '32567', 'Edgar', 'Codd', 150111222),
+(9783161484102, 'TCP/IP, the protocol for the masses', 1983, '76543', 'Vinton', 'Cerf', 150222333),
+(9783161484103, 'The Man, the Bombe, and the Enigma', 1940, '12345', 'Alan', 'Turing', 150333444);
 
 END;
