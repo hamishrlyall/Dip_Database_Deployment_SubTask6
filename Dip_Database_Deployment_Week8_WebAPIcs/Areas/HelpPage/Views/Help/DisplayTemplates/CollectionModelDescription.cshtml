@@ -1,0 +1,6 @@
+@using Dip_Database_Deployment_Week8_WebAPIcs.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
