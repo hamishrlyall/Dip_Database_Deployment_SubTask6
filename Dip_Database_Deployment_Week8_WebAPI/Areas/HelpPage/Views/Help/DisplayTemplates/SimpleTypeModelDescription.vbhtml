@@ -1,3 +1,0 @@
-@Imports Dip_Database_Deployment_Week8_WebAPI.Areas.HelpPage.ModelDescriptions
-@ModelType SimpleTypeModelDescription
-@Model.Documentation
