@@ -27,14 +27,14 @@ INSERT INTO STUDENT (STUDENTID, FIRSTNAME, LASTNAME, EMAIL, MOBILENUMBER) VALUES
 ('s98765432', 'Janis', 'Joplin', 'chasethedragon@email.com', '0433555543');
 
 INSERT INTO AUTHOR (AUTHORID, FIRSTNAME, LASTNAME, AUTHORTAXFILENUMBER) VALUES
-('32567', 'Edgar', 'Codd', 150111222),
-('76543', 'Vinton', 'Cerf', 150222333),
-('12345', 'Alan', 'Turing', 150333444);
+(32567, 'Edgar', 'Codd', 150111222),
+(76543, 'Vinton', 'Cerf', 150222333),
+(12345, 'Alan', 'Turing', 150333444);
 
-INSERT INTO BOOK (ISBN, TITLE, PUBLICATIONYEAR, AUTHORID, FIRSTNAME, LASTNAME, AUTHORTAXFILENUMBER) VALUES
-(9783161484100, 'Relationships with Databases, the ins and outs', 1970, '32567', 'Edgar', 'Codd', 150111222),
-(9783161484101, 'Normalisation, how to make a database geek fit in', 1973, '32567', 'Edgar', 'Codd', 150111222),
-(9783161484102, 'TCP/IP, the protocol for the masses', 1983, '76543', 'Vinton', 'Cerf', 150222333),
-(9783161484103, 'The Man, the Bombe, and the Enigma', 1940, '12345', 'Alan', 'Turing', 150333444);
+INSERT INTO BOOK (ISBN, TITLE, PUBLICATIONYEAR, AUTHORID, studentId) VALUES
+('9783161484100', 'Relationships with Databases, the ins and outs', 1970, 32567, null),
+('9783161484101', 'Normalisation, how to make a database geek fit in', 1973, 32567, null),
+('9783161484102', 'TCP/IP, the protocol for the masses', 1983, 76543, null),
+('9783161484103', 'The Man, the Bombe, and the Enigma', 1940, 12345, null);
 
 END;

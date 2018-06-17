@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Dip_Database_Deployment_Week8Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="authorId" />
+    </Key>
+    <Property Name="authorId" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="firstName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="lastName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="authorTaxFileNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="title" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="PublicationYear" Type="int" Nullable="false" />
+    <Property Name="authorId" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="firstName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="lastName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="authorTaxFileNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="studentId" />
+    </Key>
+    <Property Name="studentId" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="firstName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="lastName" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="email" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="mobileNumber" Type="nchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Dip_Database_Deployment_Week8ModelStoreContainer">
+    <EntitySet Name="Author" EntityType="Self.Author" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

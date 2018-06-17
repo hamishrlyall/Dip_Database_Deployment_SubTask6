@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Author]
+       [dbo].[Student]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column authorId in table [dbo].[Author] is currently  VARCHAR (20) NOT NULL but is being changed to  INT
+         NOT NULL. Data loss could occur.
+       The type for column firstName in table [dbo].[Author] is currently  NCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur.
+       The type for column lastName in table [dbo].[Author] is currently  NCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NOT NULL. Data loss could occur.
+       The column [dbo].[Book].[authorTaxFileNumber] is being dropped, data loss could occur.
+       The column [dbo].[Book].[firstName] is being dropped, data loss could occur.
+       The column [dbo].[Book].[lastName] is being dropped, data loss could occur.
+       The type for column authorId in table [dbo].[Book] is currently  VARCHAR (20) NOT NULL but is being changed to  INT NOT
+         NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Author] (Table)
+       [dbo].[Student] (Table)
+     Alter
+       [dbo].[Book] (Table)
+     Create
+       [dbo].[FK_BOOK_AUTHOR] (Foreign Key)
+       [dbo].[FK_BOOK_STUDENT] (Foreign Key)
+
+** Supporting actions
+
+The type for column authorId in table [dbo].[Author] is currently  VARCHAR (20) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur.
+The type for column firstName in table [dbo].[Author] is currently  NCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur.
+The type for column lastName in table [dbo].[Author] is currently  NCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NOT NULL. Data loss could occur.
+The column [dbo].[Book].[authorTaxFileNumber] is being dropped, data loss could occur.
+The column [dbo].[Book].[firstName] is being dropped, data loss could occur.
+The column [dbo].[Book].[lastName] is being dropped, data loss could occur.
+The type for column authorId in table [dbo].[Book] is currently  VARCHAR (20) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur.
+

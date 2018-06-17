@@ -1,0 +1,6 @@
+c:\users\student\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\bin\Debug\Dip_Database_Deployment_Week8.dacpac
+c:\users\student\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\obj\Debug\Dip_Database_Deployment_Week8.dll
+c:\users\student\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\obj\Debug\Dip_Database_Deployment_Week8.pdb
+c:\users\student\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\bin\Debug\Dip_Database_Deployment_Week8.dll
+c:\users\student\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\bin\Debug\Dip_Database_Deployment_Week8.pdb
+C:\Users\STUDENT\source\repos\Dip_Database_Deployment_Week8\Dip_Database_Deployment_Week8\obj\Debug\Dip_Database_Deployment_Week8.sqlprojResolveAssemblyReference.cache
